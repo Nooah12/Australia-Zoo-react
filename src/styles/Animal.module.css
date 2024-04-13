@@ -6,11 +6,15 @@
     width: 90%;
 }
 
-.animals img {
-    width: 100%;
+.imgSmall {
+    width: 70%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    width: 100%;
 }
 
 .animals p {
@@ -51,4 +55,11 @@
         font-size: 18px;
         font-weight: lighter;
     }
+
+    .animals img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 }

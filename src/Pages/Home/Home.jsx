@@ -26,7 +26,7 @@ const Home = () => {
 
         {selectedAnimal && (
           <div className={styles.animals}>
-            <img src={selectedAnimal.image} alt={selectedAnimal.name} />
+            <img className={styles.imgSmall} src={selectedAnimal.image} alt={selectedAnimal.name} />
             <h3>{selectedAnimal.name}</h3>
             <p><b>Description:</b>{selectedAnimal.description.slice(0, 200)}... <button className={styles.button} onClick={readMore}>Read more</button></p>
             <p><b>Food:</b>{selectedAnimal.food}</p>
