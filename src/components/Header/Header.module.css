@@ -1,5 +1,13 @@
 .header {
     background-color: rgb(93, 93, 93);
-    padding: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
+    background-image: url('../../../img/wildlife.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.title {
+    margin: 0;
 }
